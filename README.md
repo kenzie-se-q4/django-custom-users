@@ -32,4 +32,4 @@ Extend your custom user field so that it has the following _nullable_ fields:
 #### **Submission**
  - Push to the **main** branch
  - Submit the link to your repo
-<pre>https://github.com/kenzie-se-q4/django-custom-users/&ltgithub_username&gt/</pre>
+<pre>https://github.com/kenzie-se-q4/django-custom-users-&ltgithub_username&gt</pre>
