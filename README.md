@@ -6,10 +6,20 @@ This project is simply about implementing a custom user from the ground up so th
 
 #### **Your Task**
 
-Implement your own login and signup page (don't use the defaults) for the server that leads to a locked-down "homepage". The homepage should show:
+Extend your custom user field so that it has the following _nullable_ field:
 
-*   the username <span>of the person who is logged in</span>
-*   the display name of the person who is logged in
+* Displayname (Charfield)
+
+Implement your own 
+
+* Signup page
+* Login page (do NOT use Django's built-in login view)
+* Homepage that is only accessible when logged in
+
+The homepage should show:
+
+*   the username of the person who is logged in
+*   the displayname of the person who is logged in
 *   the output the value of `settings.AUTH_USER_MODEL`
 
 NOTE: DO NOT name any part of your app "user" -- it will have conflict with the built-in user model and give you all sorts of errors that are really difficult to debug if you don't know what you're looking for. Use "custom_user", "myuser", "dudewheresmyuser"... literally anything but "user" will work.
