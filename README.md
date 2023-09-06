@@ -6,11 +6,21 @@ This project is simply about implementing a custom user from the ground up so th
 
 #### **Your Task**
 
-Implement your own login and signup page (don't use the defaults) for the server that leads to a locked-down "homepage". The homepage should show:
+Extend your custom user field so that it has the following _nullable_ field:
 
-*   the username <span>of the person who is logged in</span>
-*   the display name of the person who is logged in
-*   the output the value of `settings.AUTH_USER_MODEL`
+- Displayname (Charfield)
+
+Implement your own 
+
+- Signup page
+- Login page (do not use Django's built-in login view)
+- Homepage that is only accessible when logged in
+
+The Homepage should show:
+
+- the username of the person who is logged in
+- the displayname of the person who is logged in
+- the output the value of `settings.AUTH_USER_MODEL`
 
 NOTE: DO NOT name any part of your app "user" -- it will have conflict with the built-in user model and give you all sorts of errors that are really difficult to debug if you don't know what you're looking for. Use "custom_user", "myuser", "dudewheresmyuser"... literally anything but "user" will work.
 
@@ -18,8 +28,8 @@ NOTE: DO NOT name any part of your app "user" -- it will have conflict with the 
 
 Extend your custom user field so that it has the following _nullable_ fields:
 
-*   Homepage (URLField)
-*   Age (IntegerField)
+- Homepage (URLField)
+- Age (IntegerField)
 
 **Extra Credit (1 point)**
 
@@ -30,6 +40,7 @@ Extend your custom user field so that it has the following _nullable_ fields:
 1 additional bonus point if you make the superuser command ask for their age.
 
 #### **Submission**
- - Push to the **main** branch
- - Submit the link to your repo
+
+- Push to the **main** branch
+- Submit the link to your repo
 <pre>https://github.com/kenzie-se-q4/django-custom-users-&ltgithub_username&gt</pre>
